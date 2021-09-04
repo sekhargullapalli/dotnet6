@@ -1,9 +1,7 @@
 #nullable disable
 namespace  MinimalJsonServer;
 internal class JsonDataSet
-{
-    internal Dictionary<string, ICollection<JsonDictionary>> OriginalTables { get; set; }
-        = new Dictionary<string, ICollection<JsonDictionary>>(StringComparer.OrdinalIgnoreCase);
+{    
     internal Dictionary<string, ICollection<JsonDictionary>> Tables { get; set; }
     = new Dictionary<string, ICollection<JsonDictionary>>(StringComparer.OrdinalIgnoreCase);
     internal void ReadJson(string path)
