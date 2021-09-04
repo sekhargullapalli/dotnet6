@@ -10,3 +10,13 @@ The Json is expected to be serialized to  ``` Dictionary<string, ICollection<Dic
 
 A key '__ id __' will be added to the objects. The ordinal ignore case string comparer is used for dictionary keys.
 
+
+
+
+
+<br>
+<br>
+
+### ACKNOWLEDGEMENT
+
+Countries data in source.json collected from calls to [RestCountries.eu](https://restcountries.eu/)
